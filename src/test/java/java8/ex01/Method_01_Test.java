@@ -7,7 +7,6 @@ import org.junit.Test;
 import java8.data.Data;
 import java8.data.Person;
 
-
 /**
  * Exercice 01 - Méthode par défaut
  */
