@@ -82,4 +82,5 @@ public class Stream_01_Test {
 
         assertThat(result.isPresent(), is(false));
     }
+    
 }

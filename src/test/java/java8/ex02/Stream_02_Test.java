@@ -26,6 +26,7 @@ public class Stream_02_Test {
         // Trouver la liste des clients ayant déjà passés une commande
         List<Customer> result = orders.stream().map(o->o.getCustomer()).distinct().collect(Collectors.toList());
 
+        
         assertThat(result, hasSize(2));
     }
 }
