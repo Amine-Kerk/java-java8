@@ -15,7 +15,16 @@ public class Function_05_Test {
     //tag::functions[]
     // TODO compléter la fonction
     // TODO modifier le mot de passe en "secret"
-    Consumer<Person> changePasswordToSecret = null;
+    Consumer<Person> changePasswordToSecret = new Consumer<Person>(){
+
+		@Override
+		public void accept(Person t) {
+			
+			
+		}
+    	
+    	
+    };
 
     // TODO compléter la fonction
     // TODO vérifier que l'age > 4 avec une assertion JUnit

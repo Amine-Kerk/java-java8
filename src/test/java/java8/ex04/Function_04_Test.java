@@ -68,7 +68,7 @@ public class Function_04_Test {
 
         // TODO invoquer la méthode filter pour que le test soit passant
         // TODO chaîner les prédicats adult, lastnameIsFrance et firstnameIsArmor avec la méthode and
-        List<Person> result = null;
+        List<Person> result = filter(personList,adult);
 
         assert result.size() == 1;
         assert result.get(0).getFirstname().equals("Armor");
