@@ -18,6 +18,7 @@ public class TestDigestUtils {
 		// TU encode son mot de passe et tu vérifies que son mot de passe
 		// est égal au mode de passe encodé stocké en base de données.
 
+		
 
 	}
 
